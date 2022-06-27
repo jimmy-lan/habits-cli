@@ -4,7 +4,7 @@
 
 import Table from "cli-table3";
 import chalk from "chalk";
-import { ValueUpdateRowOptions } from "../../types/display";
+import { ValueUpdateRowOptions } from "../../types";
 
 const create = (options?: Partial<Table.TableConstructorOptions>) => {
   return new Table({
